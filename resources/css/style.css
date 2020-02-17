@@ -44,6 +44,30 @@ h1 {
   font-size: 200%;
   font-weight: 300;
   text-transform: uppercase;
+  letter-spacing: 1px;
+  word-spacing: 4px;
+}
+
+h2 {
+  margin-top: 0;
+  margin-bottom: 30px;
+  color: #000000;
+  font-size: 180%;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+}
+
+h2:after {
+  display: block;
+  background-color: black;
+  height: 2px;
+  content: " ";
+  width: 100px;
+  margin: 0 auto;
+  margin-top: 30px;
 }
 
 li {
@@ -57,6 +81,7 @@ li {
   padding: 10px 30px;
   border-radius: 200px;
   font-weight: 300;
+  text-transform: uppercase;
 }
 
 .btn-full:link,
@@ -160,4 +185,119 @@ li {
 .nav-link ul li a:hover:after,
 .nav-link ul li a:active:after {
   width: 100%;
+}
+
+/* Song section */
+.magical {
+  background-color: #eeeeee;
+}
+.box {
+  width: 90%;
+  height: auto;
+  display: inline-block;
+  float: left;
+  background-color: #ffffff;
+  margin-left: 5%;
+  border-radius: 5%;
+  box-shadow: 0 2px 2px #555;
+}
+
+.box img {
+  max-width: 100%;
+  height: 250px;
+  border-top-right-radius: 5%;
+  border-top-left-radius: 5%;
+}
+
+.box ul li {
+  list-style: none;
+}
+.box ul li a:link,
+.box ul li a:visited {
+  text-decoration: none;
+  color: #000000;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  font-weight: 300;
+  transition: font-weight 0.2s;
+}
+
+.box ul li a:hover,
+.box ul li a:active {
+  font-weight: 400;
+}
+.pera p {
+  padding: 15px;
+  text-transform: uppercase;
+  font-size: 120%;
+  text-align: center;
+  border-top: 1px solid #e4e3e3;
+  border-bottom: 1px solid #e4e3e3;
+}
+.pera ul {
+  padding: 20px;
+}
+
+.pic {
+  list-style: none;
+  width: 100%;
+}
+.pic li {
+  display: block;
+  width: 25%;
+  float: left;
+}
+.pic-pic {
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+  background-color: #000000;
+}
+.pic-pic img {
+  opacity: 0.5;
+  width: 100%;
+  height: 200px;
+  transform: scale(1.19);
+  transition: transform 0.5s, opacity 0.5s;
+}
+pic-section {
+  padding: 0;
+}
+.pic-pic img:hover {
+  transform: scale(1.12);
+  opacity: 1;
+}
+
+.city-section {
+  background-color: #eeeeee;
+}
+
+.box2 {
+  width: 22.5%;
+  height: auto;
+  display: inline-block;
+  float: left;
+  background-color: #ffffff;
+  margin-right: 25px;
+  border-radius: 5%;
+  box-shadow: 0 2px 2px #555;
+  text-align: center;
+  padding-bottom: 30px;
+}
+.box2 img {
+  max-width: 100%;
+  height: 250px;
+
+  border-top-right-radius: 5%;
+  border-top-left-radius: 5%;
+}
+.box2 ul {
+  padding-top: 10px;
+}
+.box2 ul li {
+  list-style: none;
+  line-height: 120%;
+  letter-spacing: 1%;
+  word-spacing: 4px;
+  font-weight: 400;
 }
