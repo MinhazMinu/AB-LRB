@@ -119,7 +119,7 @@ li {
 
 .hero-section {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url("./img/hero.jpg");
+    url("./img/hero1.jpg");
   background-size: cover;
   width: 100vw;
   height: 100vh;
@@ -277,6 +277,7 @@ pic-section {
   height: auto;
   display: inline-block;
   float: left;
+  margin: 0 auto;
   background-color: #ffffff;
   margin-right: 25px;
   border-radius: 5%;
@@ -300,4 +301,40 @@ pic-section {
   letter-spacing: 1%;
   word-spacing: 4px;
   font-weight: 400;
+}
+
+/* contuct */
+.contact-form {
+  width: 60%;
+  margin: 0 auto;
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+select {
+  width: 100%;
+  padding: 7px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+
+textarea {
+  height: 100px;
+}
+
+input[type="submit"] {
+  padding: 15px 20px;
+  border: 2px solid #000000;
+  border-radius: 50%;
+  margin-top: 10px;
+  font-weight: 400;
+  font-size: 105%;
+}
+
+footer {
+  background-color: #000000;
+  padding: 60px;
+  text-align: center;
+  vertical-align: text-bottom;
 }
