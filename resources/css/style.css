@@ -113,6 +113,24 @@ li {
   color: black;
   border: 1px solid #fff;
 }
+input[type="submit"] {
+  background-color: #eee;
+  color: black;
+  border: 2px solid #000000;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 200px;
+  font-weight: 400;
+  text-transform: uppercase;
+  transition: border 0.2s, background-color 0.2s, color 0.2s;
+}
+input[type="submit"]:hover {
+  background-color: rgb(39, 38, 38);
+  color: #fff;
+  border: 2px solid rgb(39, 38, 38);
+}
+
 /* ----------------------------------------------- */
 /* HEro section */
 /* ----------------------------------------------- */
@@ -323,14 +341,14 @@ textarea {
   height: 100px;
 }
 
-input[type="submit"] {
+/* input[type="submit"] {
   padding: 15px 20px;
   border: 2px solid #000000;
   border-radius: 50%;
   margin-top: 10px;
   font-weight: 400;
   font-size: 105%;
-}
+} */
 
 footer {
   background-color: #000000;
